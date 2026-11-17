@@ -1,10 +1,10 @@
-# Written by scripts/homebrew-cask.mjs in https://github.com/mykynk/durbun for Dürbün 0.3.0; do not edit by hand.
+# Written by scripts/homebrew-cask.mjs in https://github.com/mykynk/durbun for Dürbün 0.3.1; do not edit by hand.
 cask "durbun" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.0"
-  sha256 arm:   "d2cb42ae5048b1191119c1cfe702523a22fd39ba7d51887700797f25557d8116",
-         intel: "7683a69e04996c89df5091e8c5cc7c97e1aa17cdf4bf47d38812e6af416a9b47"
+  version "0.3.1"
+  sha256 arm:   "f9156a13af4ab9ca151e178697a8fba43225709088f89c5345e35f922c0ae315",
+         intel: "e463841154be63efb97981ba3dc1e69f154ed215ef7efbcf18276b23bb422a18"
 
   url "https://github.com/mykynk/durbun/releases/download/v#{version}/Durbun-#{version}-#{arch}.dmg",
       verified: "github.com/mykynk/durbun/"
